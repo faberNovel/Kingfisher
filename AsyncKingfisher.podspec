@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
   s.subspec "SwiftUI" do |sp|
     sp.source_files = ["Sources/SwiftUI/**"]
     sp.exclude_files = ["Sources/SwiftUI/Delegate.swift"]
-    sp.dependency "Kingfisher/Core"
+    sp.dependency "AsyncKingfisher/Core"
     sp.ios.deployment_target = "13.0"
     sp.tvos.deployment_target = "13.0"
     sp.osx.deployment_target = "10.15"
